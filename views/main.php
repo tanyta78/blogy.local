@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shareboard</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"  href="<?php echo ROOT_URL; ?>assets/css/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo ROOT_URL; ?>assets/css/style.css">
 
 </head>
 
@@ -60,9 +60,9 @@
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script>
-        window.jQuery || document.write('<script src="assets/js/jquery-slim.min.js"><\/script>')
+        window.jQuery || document.write('<script src="<?php echo ROOT_URL; ?>assets/js/jquery-slim.min.js"><\/script>')
     </script>
-    <script src="assets/js/bootstrap.bundle.min.js"
+    <script src="<?php echo ROOT_URL; ?>assets/js/bootstrap.bundle.min.js"
         integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous">
     </script>
 

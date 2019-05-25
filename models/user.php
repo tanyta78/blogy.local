@@ -1,6 +1,11 @@
 <?php
 class UserModel extends Model{
-    public function Index()
+    public function register()
+    {
+        return;
+    }
+
+    public function login()
     {
         return;
     }
