@@ -1,5 +1,5 @@
 <?php
-class UserModel{
+class UserModel extends Model{
     public function Index()
     {
         return;

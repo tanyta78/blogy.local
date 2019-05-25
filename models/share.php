@@ -1,7 +1,9 @@
 <?php
-class ShareModel{
+class ShareModel extends Model{
     public function Index()
     {
-        return;
+        $this->query('SELECT * FROM shareboard.shares');
+        $rows = $this->resultset();
+        return $rows;
     }
 }
